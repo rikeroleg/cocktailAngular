@@ -1,0 +1,44 @@
+
+
+<button class="btn" type="button" (click)="getDrink()">
+  Cocktail of the day
+</button>
+<div class="cocktail">
+  {{cocktail.strDrink}}
+  <img class="name">
+</div>
+<div>
+    <img class="img" src= {{cocktail.strDrinkThumb}}>
+  </div>
+<div class="type">
+  {{type}} {{ cocktail.strAlcoholic}}
+</div>
+<div class="category">
+  {{category}} {{cocktail.strCategory}}
+</div>
+<div class="glass">
+  {{glass}} {{cocktail.strGlass}}
+</div>
+<div class="instructions">
+  {{instructions}} {{cocktail.strInstructions}}
+</div>
+<div class="ingredients">
+  {{ingredients}} {{cocktail.strIngredient1 }}, 
+                  {{cocktail.strIngredient2}}, 
+                  {{cocktail.strIngredient3}}, 
+                  {{cocktail.strIngredient4}}, 
+                  {{cocktail.strIngredient5}}, 
+                  {{cocktail.strIngredient6}}, 
+                  {{cocktail.strIngredient7}}, 
+                  {{cocktail.strIngredient8}}
+</div>
+<div class="measures">
+  {{measures}}{{cocktail.strMeasure1}}
+              {{cocktail.strMeasure2}} 
+              {{cocktail.strMeasure3}} 
+              {{cocktail.strMeasure4}}
+              {{cocktail.strMeasure5}}
+              {{cocktail.strMeasure6}}
+              {{cocktail.strMeasure7}}
+              {{cocktail.strMeasure8}}
+</div>
